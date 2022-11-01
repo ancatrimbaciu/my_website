@@ -1,9 +1,10 @@
 # release.yaml
 name: Example Release
-on: push:
+on:
+  push:
     tags:
-      - 'release/v*'
-jobs: 
+      - "release/v*"
+jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
