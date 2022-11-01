@@ -3,7 +3,8 @@ name: Example Release
 on: push:
     tags:
       - 'release/v*'
-jobs: build:
+jobs: 
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
